@@ -1,0 +1,54 @@
+body{
+    background-color:grey ;
+    margin: 0;
+}
+.encabezado{
+    text-align: center;
+    background-color: white;
+}
+.cuerpo{
+    margin: auto;
+    display: block;
+    width: 90%;
+    
+}
+.publicacion {
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 45px auto;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    margin: 10px 0;
+    
+}
+.titulo{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.fecha{
+    font-size: 0.9;
+    color: grey;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.publicacion-encabezado{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    font-family:monospace;
+    
+}
+.pie-foto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
